@@ -1,6 +1,6 @@
-# Next.js with Material UI, Next-PWA and Zustand
+# Next.js with Tailwind CSS, Next-PWA and Zustand
 
-Template for Next.js with Material UI, Next-PWA and Zustand.
+Template for Next.js with Tailwind CSS, Next-PWA and Zustand.
 
 ## Requirements
 

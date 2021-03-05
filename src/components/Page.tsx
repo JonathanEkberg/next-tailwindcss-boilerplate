@@ -1,7 +1,8 @@
 import Head from "next/head"
-import { useMediaQuery } from "@material-ui/core"
+import useMediaQuery from "src/hooks/useMediaQuery"
 import Layout from "./Layout"
 import NProgress from "./NProgress"
+import Theme from "./Theme"
 
 interface PageProps {
 	center?: boolean
@@ -47,9 +48,8 @@ const Page: React.FC<PageProps> = ({ children, center = false, navbar = true }) 
 				/>
 			</Head>
 			<NProgress />
-			<Layout center={center} navbar={navbar}>
-				{children}
-			</Layout>
+			<Theme />
+			<Layout>{children}</Layout>
 		</>
 	)
 }

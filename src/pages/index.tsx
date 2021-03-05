@@ -1,17 +1,13 @@
-import { Box } from "@material-ui/core"
-import { makeStyles } from "@material-ui/core/styles"
 import { Page } from "src/components"
-
-const useStyles = makeStyles(() => ({
-	box: {},
-}))
+import { useStore } from "src/lib/state"
 
 const Home: React.FC = () => {
-	const c = useStyles()
+	const { toggleDarkmode } = useStore()
 
 	return (
 		<Page>
-			<Box className={c.box} />
+			<div className="bg-blue-600 dark:bg-red-600 flex-grow">Page</div>
+			<button onClick={toggleDarkmode}>Toggle darkmode</button>
 		</Page>
 	)
 }
