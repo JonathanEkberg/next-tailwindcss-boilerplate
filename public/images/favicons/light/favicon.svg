@@ -1,0 +1,23 @@
+<svg width="114" height="100" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+ <title>Logotype - Black</title>
+ <desc>Created with Sketch.</desc>
+ <defs>
+  <linearGradient id="linearGradient-1" y2="100%" x2="41.7687834%" y1="181.283245%" x1="100.929941%">
+   <stop offset="0%" stop-color="#FFFFFF"/>
+   <stop offset="100%" stop-color="#000000"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" fill-rule="evenodd" fill="none" id="Page-1">
+   <g stroke="null" fill="url(#linearGradient-1)" id="Black-Triangle">
+    <polygon stroke="null" points="57.92029318213463,15.637371703982353 98.31766256690025,86.50993601977825 17.522933334112167,86.50993601977825 " id="Logotype---Black"/>
+   </g>
+  </g>
+ </g>
+</svg>

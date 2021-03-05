@@ -1,0 +1,35 @@
+{
+	"name": "next-boilerplate",
+	"version": "0.1",
+	"private": false,
+	"author": {
+		"email": "jodrim@gmail.com",
+		"name": "Jonathan Ekberg",
+		"url": "https://github.com/JonathanEkberg"
+	},
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"prod": "yarn build && yarn start"
+	},
+	"dependencies": {
+		"@material-ui/core": "^4.11.3",
+		"@material-ui/icons": "^4.11.2",
+		"@material-ui/lab": "^4.0.0-alpha.57",
+		"next": "^10.0.7",
+		"next-compose-plugins": "^2.2.1",
+		"next-pwa": "^5.0.5",
+		"nprogress": "^0.2.0",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"zustand": "^3.3.1"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"@types/nprogress": "^0.2.0",
+		"@types/styled-jsx": "^2.2.8",
+		"typescript": "^4.1.3"
+	}
+}
